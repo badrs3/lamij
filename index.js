@@ -40,7 +40,7 @@ bot.on('guildMemberAdd', async(member) => {
             }
         )
     }catch(err){
-        console.log("I want to wash my ass", err)
+        console.log("I want to wash my", err)
     }
 })()
 
@@ -60,7 +60,7 @@ bot.on('interactionCreate', async(int) => {
     try{
         await command.execute(int, bot)
     }catch(err){
-        console.log("I want to wash my ass", err)
+        console.log("I want to wash my", err)
     }
 })
 
